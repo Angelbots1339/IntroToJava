@@ -1,0 +1,21 @@
+Hello, world!
+Integers Functions (int):
+2 + 7 = 9
+6 - 3 = 3
+13 * 17 = 221
+27 / 5 = 5
+27 % 5 = 2
+
+Floating Point Functions (float):
+2.3 + 7.6 = 9.9
+6.8 - 3.6 = 3.2000003
+13.1 * 17.6 = 230.56001
+27 / 5 = 5.4
+27 % 5 = 2.0
+27.3 % 5 = 2.2999992
+
+Boolean Functions (boolean):
+Testing "2 == 2": true
+Testing "2 != 3": false
+Testing "2 + 2 == 4": true
+Testing "! false": true
