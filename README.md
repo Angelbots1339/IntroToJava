@@ -6,8 +6,10 @@ This repo is the public entry point for Angelbotics' "Intro To Java" course. We 
 ## images
 Updating a GitHub wiki does not allow you to upload images directly. Instead, they have to be uploaded to an accessible location and then references via URL. While it is normally discouraged to upload binary content to a git repo, we accept the tradeoffs here to be able to use images in our Wiki. Please make sure to try and give good descriptive names to any images here.
 
-## output
-Some of our projects have an expected output or more than one expected output given a certain input. These currently are specified in the GitHub classroom autograding test itself and that's what's being graded against, but it seemed prudent to have a location to store all of those output files.
+## input and output
+Most of our projects will get input from the user or output something. These currently are specified in the GitHub classroom autograding test itself and that's what's being graded against, but it seemed prudent to have a location to store all of those input and output files. The autograding test case will be named similarly to the text file so if you're not getting one correct, you can see the input used to test against and the output the autograder will see. If there is only one input, it will be in a file called `in.txt` for that assignment. Similarly if there is only one output, it will be called `out.txt`.
+
+Note that your console will print back any characters you type, but that doesn't happen in the autograded tests. That means the output here may look strange because it won't contain your input. For example, if you ask for 5 things from the user, the test output will not include any newlines since the newlines will have come from user input.
 
 ## scripts
 Currently unused. Figured it would be helpful to have a common place for scripts as well.
