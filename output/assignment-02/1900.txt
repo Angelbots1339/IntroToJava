@@ -1,1 +1,2 @@
-Please enter a year: The year 1900 is not a leap year
+Please enter a year: 1900
+The year 1900 is not a leap year

@@ -1,1 +1,2 @@
-Please enter a year: The year 2000 is a leap year
+Please enter a year: 2000
+The year 2000 is a leap year
