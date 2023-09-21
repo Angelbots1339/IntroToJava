@@ -1,5 +1,4 @@
 import enum
-import os
 from pathlib import Path
 from typing import Dict
 
@@ -67,8 +66,11 @@ class GamePlayer:
 
 def main():
     program_root_path = Path.cwd()
-    print(program_root_path)
+
+    print("Running fast game")
     GamePlayer(program_root_path, False).run()  # Fast game
+
+    print("Running slow, thorough game")
     GamePlayer(program_root_path, True).run()  # Slow, thorough game
 
 

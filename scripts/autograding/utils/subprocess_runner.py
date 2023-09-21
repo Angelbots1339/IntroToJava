@@ -72,6 +72,7 @@ class SubprocessRunner:
         self._control: Optional[SubprocessControl] = None
 
     def __enter__(self) -> SubprocessControl:
+        print(f"Command line: {self._args}")
         self._control = SubprocessControl(Popen(self._args,
                                                 shell=False,
                                                 stdin=subprocess.PIPE,
@@ -98,6 +99,5 @@ class GradleRunner(SubprocessRunner):
             "--quiet",
             "--console=plain",
         ]
-        print(args)
 
         super().__init__(project_dir, args)
