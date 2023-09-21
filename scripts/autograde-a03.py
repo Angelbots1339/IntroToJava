@@ -66,7 +66,8 @@ class GamePlayer:
 
 
 def main():
-    program_root_path = Path(os.environ['GITHUB_ACTION_PATH'])
+    program_root_path = Path.cwd()
+    print(program_root_path)
     GamePlayer(program_root_path, False).run()  # Fast game
     GamePlayer(program_root_path, True).run()  # Slow, thorough game
 
