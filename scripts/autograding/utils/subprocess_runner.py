@@ -5,8 +5,8 @@ from pathlib import Path
 from subprocess import Popen
 from typing import Optional, IO, Union
 
-from scripts.autograding.utils.buffered_line_reader import BufferedLineReader
-from scripts.autograding.utils.matcher import Matcher
+from .buffered_line_reader import BufferedLineReader
+from .matcher import Matcher
 
 
 class ReaderThread(threading.Thread):

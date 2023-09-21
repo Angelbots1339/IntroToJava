@@ -1,10 +1,9 @@
 import enum
-import sys
-import time
+import os
 from pathlib import Path
 from typing import Dict
 
-from scripts.autograding.utils.subprocess_runner import GradleRunner, SubprocessControl
+from .utils.subprocess_runner import GradleRunner, SubprocessControl
 
 
 class Result(enum.Enum):
@@ -14,7 +13,7 @@ class Result(enum.Enum):
 
 
 class GamePlayer:
-    def __init__(self, root_path: Path, be_thorough=False):
+    def __init__(self, root_path: Path, be_thorough: bool):
         self.root_path = root_path
         self._be_thorough = be_thorough
         self.results: Dict[int, Result] = {}
@@ -67,11 +66,9 @@ class GamePlayer:
 
 
 def main():
-    start = time.time_ns()
-    player = GamePlayer(Path("/Users/jnesselr/Documents/FRC/Code/Intro2Java/I2J-A03-template"), True)
-    player.run()
-    end = time.time_ns()
-    print(start, end)
+    program_root_path = Path(os.environ['GITHUB_ACTION_PATH'])
+    GamePlayer(program_root_path, False).run()  # Fast game
+    GamePlayer(program_root_path, True).run()  # Slow, thorough game
 
 
 if __name__ == '__main__':
