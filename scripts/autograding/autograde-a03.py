@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from typing import Dict
 
-from .utils.subprocess_runner import GradleRunner, SubprocessControl
+from autograding.utils.subprocess_runner import GradleRunner, SubprocessControl
 
 
 class Result(enum.Enum):
