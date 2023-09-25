@@ -1,5 +1,7 @@
 # Intro To Java
 
+Classroom link: https://classroom.github.com/classrooms/8591132-team-1339-intro-to-java-23-24
+
 This repo is the public entry point for Angelbotics' "Intro To Java" course. We will use it for things such as common git and GitHub information, grading scripts, and pretty much any other common source of information that is okay to release or needs to be publicly accessible. More information will be published as time goes on.
 
 # Directories
