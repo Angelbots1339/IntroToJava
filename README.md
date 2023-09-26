@@ -15,6 +15,3 @@ Note that your console will print back any characters you type, but that doesn't
 
 ## scripts
 Currently unused. Figured it would be helpful to have a common place for scripts as well.
-
-# Assignments
-1. https://classroom.github.com/a/paCmUtZi
