@@ -1,0 +1,22 @@
+> T
+Heads: 0
+Tails: 1
+> T
+Heads: 0
+Tails: 2
+> T
+Heads: 0
+Tails: 3
+> T
+Heads: 0
+Tails: 4
+> T
+Heads: 0
+Tails: 5
+> T
+Heads: 0
+Tails: 6
+> T
+Heads: 0
+Tails: 7
+>

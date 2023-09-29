@@ -1,0 +1,49 @@
+> A
+Error: That is not a valid input
+> B
+Error: That is not a valid input
+> C
+Error: That is not a valid input
+> D
+Error: That is not a valid input
+> E
+Error: That is not a valid input
+> F
+Error: That is not a valid input
+> G
+Error: That is not a valid input
+> I
+Error: That is not a valid input
+> J
+Error: That is not a valid input
+> K
+Error: That is not a valid input
+> L
+Error: That is not a valid input
+> M
+Error: That is not a valid input
+> N
+Error: That is not a valid input
+> O
+Error: That is not a valid input
+> P
+Error: That is not a valid input
+> Q
+Error: That is not a valid input
+> R
+Error: That is not a valid input
+> S
+Error: That is not a valid input
+> U
+Error: That is not a valid input
+> V
+Error: That is not a valid input
+> W
+Error: That is not a valid input
+> X
+Error: That is not a valid input
+> Y
+Error: That is not a valid input
+> Z
+Error: That is not a valid input
+> 

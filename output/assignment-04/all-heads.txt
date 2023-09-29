@@ -1,0 +1,22 @@
+> H
+Heads: 1
+Tails: 0
+> H
+Heads: 2
+Tails: 0
+> H
+Heads: 3
+Tails: 0
+> H
+Heads: 4
+Tails: 0
+> H
+Heads: 5
+Tails: 0
+> H
+Heads: 6
+Tails: 0
+> H
+Heads: 7
+Tails: 0
+>
