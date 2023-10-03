@@ -194,6 +194,8 @@ These all return a boolean type:
 - Less than: `a < b`
 - Less than or equal to: `a <= b`
 
+One last operation you should know is invert. It makes `true` become `false` and `false` become `true`. If you have a boolean variable `x`, you can invert it by using the exclamation mark: `!x`.
+
 ## Further Learning
 Note that these links use other number systems like binary and hexadecimal. If you don't understand those number systems, you may just want to bookmark these for later.
 
