@@ -1,3 +1,5 @@
+# Lesson 04 : Object Oriented Programming
+
 Java is an Object Oriented Programming language. Object Oriented Programming or OOP is a way of thinking about code that lends itself to writing larger applications. It is also the hardest for new programmers to wrap their mind around. This lesson will be a long lesson and will cover the very basics of OOP.
 
 Once you're able to wrap your head around these concepts, you unlock an entirely new chapter as far as abilities go. Many self taught developers write "procedural" code, where you start from the top, run through your code, and end at the bottom. Code will still run and work like that, but OOP offers more flexibility when writing code, making it easier to reason with large structures.
