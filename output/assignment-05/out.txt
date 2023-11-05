@@ -1,0 +1,17 @@
+Old man Jenkins' Cart:
+	Number of unique products: 6
+	Customer Paid: 106.5
+	Store Paid: 28.65
+	Store Profit: 77.85
+
+That one dude from math class's Cart:
+	Number of unique products: 1
+	Customer Paid: 3000.0
+	Store Paid: 900.0
+	Store Profit: 2100.0
+
+Donkey Kong's Cart:
+	Number of unique products: 1
+	Customer Paid: 500.0
+	Store Paid: 250.0
+	Store Profit: 250.0

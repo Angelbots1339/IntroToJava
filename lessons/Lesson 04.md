@@ -271,9 +271,6 @@ public void function(Fruit fruit) {
 ```
 
 This behavior actually leads to an interview question I find particularly annoying. The interviewer will ask "is an object passed by reference or by value into a method". Just answer "The reference to the variable is passed by value on the stack but the object itself is stored on the heap". If they ask you to explain what that means, excuse yourself to go use the restroom and instead run away, vowing never to return. I find it annoying because you absolutely do not need to know it in any practical sense. It's supposed to be a test of how well you know the language but it doesn't do a good job of that. Just keep in mind this behavior and you'll do fine. Frankly, you'll get the hang of it as you go and play around with classes and instances.
-
-### Naming
-Action vs noun.
 ## Encapsulation
 Alright, last big term of this lesson: encapsulation
 
