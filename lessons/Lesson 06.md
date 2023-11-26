@@ -307,7 +307,7 @@ Back to the FRC world, imagine a `Motor` interface that had a `rotationsPerMinut
 ### I: Interface Segregation
 This principle states that an interface shouldn't be too large. If it's too large, you tend to add a lot of methods that need to be implemented. But an implementer may not be interested in every single method and would end up breaking Liskov Substitution method. Instead, add several interfaces that do exactly what you want to.
 
-The irony in all of this is that a type hint in a parameter or field can only have a single interface, so you can't say "I only accept a class that implements these two interfaces". There is a way to get around this (that's a little nasty IMHO) using templates, but we won't cover that until a later lesson.
+The irony in all of this is that a type hint in a parameter or field can only have a single interface, so you can't say "I only accept a class that implements these two interfaces". There is a way to get around this (that's a little nasty IMHO) using generics, but we won't cover that until a later lesson.
 
 ### D: Dependency Inversion
 Interestingly enough, people tend to follow this principle in FRC programming almost accidentally. Dependency Inversion basically means that instead of having a class define its requirements, you pass them into the constructor.
